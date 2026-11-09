@@ -15,6 +15,7 @@
   "author": "Penn",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
-  }
+  "start": "node server.js",
+  "test": "node --test"
+}
 }
