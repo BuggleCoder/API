@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "An API",
+  "homepage": "https://github.com/BuggleCoder/API#readme",
+  "bugs": {
+    "url": "https://github.com/BuggleCoder/API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuggleCoder/API.git"
+  },
+  "license": "ISC",
+  "author": "Penn",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  }
+}
