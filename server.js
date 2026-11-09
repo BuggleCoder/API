@@ -50,8 +50,8 @@ const server = http.createServer((req, res) => {
 
     req.on("end", () => {
       try {
-        const { gameKey } = JSON.parse(body);
-        if (!gameKey) throw new Error("Missing gameKey");
+        const { key } = JSON.parse(body);
+        if (!gameKey) throw new Error("Missing key");
 
         const db = readDatabase();
         db[gameKey] = (db[gameKey] || 0) + 1;
