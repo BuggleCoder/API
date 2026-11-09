@@ -2,6 +2,7 @@
   "name": "api",
   "version": "1.0.0",
   "description": "An API",
+  "type": "module",
   "homepage": "https://github.com/BuggleCoder/API#readme",
   "bugs": {
     "url": "https://github.com/BuggleCoder/API/issues"
